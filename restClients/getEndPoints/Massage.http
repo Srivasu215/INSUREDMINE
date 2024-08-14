@@ -1,0 +1,2 @@
+###  3) API to provide aggregated policy by each user.
+GET http://localhost:8008/api/particular

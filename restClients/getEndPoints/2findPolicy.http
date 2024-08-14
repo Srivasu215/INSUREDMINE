@@ -1,0 +1,2 @@
+###  2) Search API to find policy info with the help of the username.
+GET http://localhost:8008/api/policies/search/?username=Torie Buchanan

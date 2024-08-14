@@ -1,0 +1,14 @@
+
+# Task 2:
+
+# 2) Create a post-service that takes the message, day, and time in body parameters and it inserts that message into DB at that particular day and time.
+### check port
+POST http://localhost:8008/api/particular/schedule
+content-type: application/json
+
+{
+  "message": "This is a scheduled message.",
+  "day": "Monday",
+  "time": "14:30"
+}
+
