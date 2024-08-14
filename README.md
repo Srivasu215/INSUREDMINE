@@ -132,7 +132,7 @@ https://marketplace.visualstudio.com/items?itemName=humao.rest-client
 # Task 1:
 
 ###  1. Create an API  to upload the attached XLSX/CSV data into MongoDB. (Please accomplish this using worker threads)
-http://localhost:0222/api/upload
+http://localhost:8008/api/upload
 
 ###  2. Search API to find policy info with the help of the username.
 GET http://localhost:8008/api/policies/search/?username=Torie Buchanan
@@ -150,6 +150,14 @@ GET http://localhost:8008/api/policies/aggregate
 
 POST http://localhost:8008/api/particular/schedule
 
+### if any error uploaded x.csv file 
+
+## like 
+
+Schema hasn't been registered for model "lobs".
+Use mongoose.model(name, schema)
+
+# test below endpoints once
 
 GET http://localhost:8008/api/carriers
 GET http://localhost:8008/api/LOB
