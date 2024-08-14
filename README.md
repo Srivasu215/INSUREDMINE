@@ -1,6 +1,6 @@
 # INSUREDMINE
 
-generate backend node js and database from Mongoose schema
+## backend node js and database  Mongoose
 
 <h1 align="center" color="#0000FF">INSUREDMINE</h1>
 
